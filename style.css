@@ -1,0 +1,75 @@
+@font-face {
+  src: url(./fonts/open-sans.ttf) format(truetype);
+  font-family: "open-sans";
+}
+.row #part_1 {
+  margin-top: 5%;
+  width: 40%;
+  border: 30px solid rgba(0, 0, 0, 0.267);
+  height: 100%;
+}
+.row #part_1 button {
+  margin-left: 10%;
+  margin-top: 3%;
+  width: auto;
+  background: blue;
+}
+.row #part_1 button h4 {
+  color: white;
+  font-family: "open-sans";
+}
+.row #part_1 .card {
+  margin-left: 25%;
+  margin-top: 3%;
+}
+.row #part_1 .card .card-body img {
+  margin-left: 25%;
+}
+.row #part_1 .card .card-body .row {
+  justify-content: center;
+  font-family: "open-sans";
+  font-size: 140%;
+}
+.row #part_1 .card .card-body .card-text {
+  font-family: "open-sans";
+  font-size: 140%;
+}
+.row #part_2 {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.row #part_2 .block {
+  background: rgba(0, 0, 0, 0.267);
+  /*border: 30px solid rgba(0, 0, 0, 0.267);*/
+  width: 50%;
+  font-family: "open-sans";
+  font-size: 140%;
+}
+.row #part_2 .block button {
+  background: blue;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.row #part_2 .block .star {
+  margin-left: 25%;
+}
+
+@media (max-width: 812px) {
+  .row #part_2 .block {
+    width: 100%;
+  }
+  .row #part_2 .block button {
+    margin-left: 33%;
+    margin-top: 7%;
+  }
+  .row #part_1 button {
+    margin-left: 3%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .row #part_2 .block {
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
