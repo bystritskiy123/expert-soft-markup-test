@@ -7,57 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>test work</title>
     <link rel="stylesheet" href="./style.css">
-
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
 </head>
 
 <body>
-    <div class="row container-fluid">
-        <div id="part_1" class="card-body col-md-6">
-            <button class="border-0">
-                <h4>new</h4>
-            </button>
-            <div class="card border-0 w-50">
-                <img class="card-img-top" src="./images/user2.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text" align="center">Фото 4x4</p>
-                    <img src="./images/raiting-stars.png" alt="star" class="w-50">
-                    <p class="card-text" align="center">Фото на паспорт</p>
-                    <div class="row">
-                        <strike>
-                            <h4>$1</h4>
-                        </strike>
-                        <h4>$2</h4>
+    <div class="block">
+
+        <div class="block-item">
+            <div class="block-item_content">
+                <div class="block-item_new">New</div>
+                <div class="block-item_actions">
+                    <div class="block-item_actions-eye">
+                        <div class="far fa-eye"></div>
+                    </div>
+                    <div class="block-item_actions-like">
+                        <div class="far fa-heart"></div>
+                    </div>
+                    <div class="block-item_actions-scale">
+                        <div class="fas fa-balance-scale"></div>
                     </div>
                 </div>
+                <img class="block-item_image" src="./images/user2.jpg" alt="the man">
+                <div class="block-item_info">
+                    <div class="block-item_tshirts">photo</div>
+                    <div class="block-item_star">
+                        <div class="block-item_star-item">&#9733;</div>
+                        <div class="block-item_star-item">&#9733;</div>
+                        <div class="block-item_star-item">&#9733;</div>
+                        <div class="block-item_star-item">&#9733;</div>
+                        <div class="block-item_star-item">&#9733;</div>
+                    </div>
+                    <div class="block-item_title">the man</div>
+                    <div class="block-item_prices">
+                        <div class="block-item_new-price">$16</div>
+                        <div class="block-item_old-price">$28</div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-item_buy">
+                <button class="block-item_buy-button">
+                    <span class="fa fa-shopping-bag block-item_buy-icon"></span>
+                    <span class="block-item_buy-text">Add to cart</span>
+                </button>
             </div>
         </div>
 
-        <div id="part_2" class="col-md-6">
-            <div class="block card-body">
-                <div class="card border-0">
-                    <img class="card-img-top" src="./images/blastoise.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text" align="center">Фото 4x4</p>
-                        <img src="./images/raiting-stars.png" alt="star" class="w-50 star">
-                        <p class="card-text" align="center">Фото на паспорт</p>
-                        <h4 align="center">$2</h4>
-                    </div>
-                </div>
-                <button class="border-0"><img src="./images/arrow.png" alt="">Купить</button>
-            </div>
-        </div>
+    </div>
+
 </body>
 
 </html>
